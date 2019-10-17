@@ -11,14 +11,17 @@ import ShoppingCart from "./components/ShoppingCart";
 import { ProductContext } from "./contexts/ProductContext";
 import { CartContext } from "./contexts/CartContext";
 
+// Hooks
+import useLocalStorage from "./hooks/useLocalStorage";
+
 function App() {
   const [products] = useState(data);
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useLocalStorage("storage", []);
 
   const addItem = item => {
     // add the given item to the cart
     if (cart.includes(item)) {
-      console.log("item already added");
+      console.log("error: item already added");
     } else {
       setCart([...cart, item]);
     }
