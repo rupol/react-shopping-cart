@@ -1,30 +1,43 @@
 export default [
-	{
-		id: 1,
-		title: 'The Art Of War',
-		price: 10.11,
-		image:
-			'https://images-na.ssl-images-amazon.com/images/I/41FBMkY3cgL._SX331_BO1,204,203,200_.jpg'
-	},
-	{
-		id: 2,
-		title: 'Civilization and Its Discontents',
-		price: 14.29,
-		image:
-			'https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg'
-	},
-	{
-		id: 3,
-		title: 'Influence: The Psychology of Persuasion',
-		price: 10.98,
-		image:
-			'https://images-na.ssl-images-amazon.com/images/I/512-B-1yXuL._SX331_BO1,204,203,200_.jpg'
-	},
-	{
-		id: 4,
-		title: 'Grokking Algorithms',
-		price: 40.00,
-		image:
-			'https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg'
-	}
+  {
+    id: 1,
+    title: "Annihilation",
+    price: 10.06,
+    image:
+      "http://bookcoverarchive.com/wp-content/uploads/2015/05/annihilation-book-cover.jpg"
+  },
+  {
+    id: 2,
+    title: "The Left Hand of Darkness",
+    price: 10.83,
+    image: "https://images-na.ssl-images-amazon.com/images/I/91AMkAkM6eL.jpg"
+  },
+  {
+    id: 3,
+    title: "The Hole",
+    price: 10.98,
+    image:
+      "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781628729917/the-hole-9781628729917_hr.jpg"
+  },
+  {
+    id: 4,
+    title: "The Power",
+    price: 9.29,
+    image:
+      "http://www.naomialderman.com/storage/The%20Power.jpg?__SQUARESPACE_CACHEVERSION=1475776676981"
+  },
+  {
+    id: 5,
+    title: "The Psychopath Test",
+    price: 12.89,
+    image:
+      "http://bookcoverarchive.com/wp-content/uploads/2017/01/psychopath-test.jpg"
+  },
+  {
+    id: 6,
+    title: "Never Let Me Go",
+    price: 12.39,
+    image:
+      "http://bookcoverarchive.com/wp-content/uploads/amazon/never_let_me_go.jpg"
+  }
 ];
